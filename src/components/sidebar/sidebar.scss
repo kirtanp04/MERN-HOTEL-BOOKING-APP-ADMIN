@@ -1,0 +1,123 @@
+body{
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.sidebar {
+  flex: 1;
+  text-transform: capitalize;
+  font-weight: bold;
+  border-right: 0.5px solid rgb(230, 227, 227);
+  min-height: 100vh;
+  background-color: white;
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e9f595ce-2a04-40e2-bd37-b4ce458c5c17/dagb0ty-1bb42f5a-24c8-4a60-8a66-07f5d74e7a35.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2U5ZjU5NWNlLTJhMDQtNDBlMi1iZDM3LWI0Y2U0NThjNWMxN1wvZGFnYjB0eS0xYmI0MmY1YS0yNGM4LTRhNjAtOGE2Ni0wN2Y1ZDc0ZTdhMzUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.HoKs_er7p5IWk-rKorcrUfB7Walt3kZxzNY6-40TkSY");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+
+  .top {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+      
+    }
+  }
+
+  hr {
+    height: 0;
+    border: 0.5px solid rgb(230, 227, 227);
+  }
+
+  .center {
+    padding-left: 10px;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      
+
+      .title {
+        font-size: 10px;
+        font-weight: bold;
+        color: white;
+        margin-top: 15px;
+        margin-bottom: 5px;
+      }
+
+      li {
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: black;
+        }
+
+        .icon {
+          font-size: 18px;
+          color: white;
+        }
+
+        span{
+            font-size: 13px;
+            font-weight: bold;
+            text-transform: capitalize;
+            color: white;
+            margin-left: 10px;
+        }
+      }
+    }
+  }
+
+  .bottom{
+      display: flex;
+      align-items: center;
+      margin: 10px;
+
+      .colorOption{
+          width: 20px;
+          height: 20px;
+          border-radius: 5px;
+          border: 1px solid #7451f8;
+          cursor: pointer;
+          margin: 5px;
+
+          &:nth-child(1){
+              background-color: whitesmoke;
+          }
+          &:nth-child(2){
+              background-color: #333;
+          }
+          &:nth-child(3){
+              background-color: darkblue;
+          }
+      }
+      .navButton{
+        margin-left: 20px;
+        
+        padding: 10px 20px;
+        cursor: pointer;
+        color: white;
+        border-radius: 10px;
+        background-color: blue;
+    }
+  }
+}
+.logo{
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  border-radius: 100px;
+}
+.logo:hover{
+  transform: scale(1.04);
+  
+}
